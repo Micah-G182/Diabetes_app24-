@@ -48,7 +48,7 @@ model = joblib.load('diabetes_app.pkl')
 
 st.set_page_config(page_title="Diabetes Prediction App",layout= "centered")
 st.title("Diabetes Prediction App")
-st.write("CAUTION: This application should only be used by a qualified medical practioner.The developer will not be liable for any wrong use of the application.")
+st.write("CAUTION: This application should only be used by a qualified medical practitioner.The developer will not be liable for any wrong use of the application.")
 #app title and intro
 st.set_page_config(page_title="Micy Diabetes Prediction Application",layout="centered")
 st.title("MGN Diabetes Risk Assessment App (Sample model)")
@@ -95,3 +95,4 @@ data2= {
 }
 df2= pd.DataFrame(data2)
 st.table(df2)
+
